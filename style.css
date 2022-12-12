@@ -1,0 +1,18 @@
+body {
+    background-image: url(assets/dashboard\ background.webp);
+    background-size: 1750px;
+    color: white;
+}
+.navbar {
+    background-color: blue;
+}
+
+.navbar a {
+    color: white;
+    font-size: 35px;
+    
+}
+
+.weather {
+    border: 1px;
+}
