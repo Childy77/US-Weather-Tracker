@@ -16,3 +16,13 @@ body {
 .weather {
     border: 1px;
 }
+.right-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.days {
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
