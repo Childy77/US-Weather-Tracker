@@ -45,7 +45,7 @@ fetch(weatherURL)
 
         for (let i = 0; i < response.list.length; i+=8) {
             const dayForcast = response.list[i];
-            $("#five-day").append('<div class="col days"><p class="day-1-date">'+dayjs.unix(dayForcast.dt).format("MM/DD/YYYY")+'</p><p class="day-1-icon"></p><p class="day-1-temperature">'+dayForcast.main.temp+'</p><p class="day-1-humidity">'+dayForcast.main.humidity+'</p></div>')
+            $("#five-day").append('<div class="col days"><p class="day-1-date">'+dayjs.unix(dayForcast.dt).format("MM/DD/YYYY")+'</p><p class="day-1-icon"></p>Temp:<p class="day-1-temperature">'+dayForcast.main.temp+'</p>Humidity:<p class="day-1-humidity">'+dayForcast.main.humidity+'</p>Wind Speed:<p class="day-1-wind">'+dayForcast.wind.speed+'</p></div>')
             
         }
     })
