@@ -31,7 +31,9 @@
             <div class="container">
               <a class="navbar-brand" href="#">
                 
-                <strong>Daily Weather</strong>
+                <strong>
+                    <i class="far fa-sun"></i>
+                    Daily Weather</strong>
               </a>
               <span id="date" class="lead">12:00 PM | Dec 12, 2022</span>
             </div>
@@ -45,35 +47,63 @@
                     <form>
                         <!-- change to city input -->
                         <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Select City</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <label class="form-label">Select City</label>
+                          <input type="search" placeholder="Enter City Name" class="form-control mr-sm-2 input">
+                          <button class="btn btn-primary my-2 my-sm-0 search search-button" type="submit">
+                            <i class="fas fa-search-location"></i>
+                          </button>
                         
                         </div>
                         
                       </form>
                   </div>
                   <div class="col-10">
-                    <div class="right-container">
+                    <div class="top-container">
                         <h1>City</h1>
+                        <p class="current-date"></p>
+                        <p class="city"></p>
+                        <p class="weather-icon"></p>
+                        <p class="temperature"></p>
+                        <p class="humidity"></p>
+                        <p class="wind"></p>
+                        <p class="uv"></p>
 
                     </div>
                     <h2>5 day forcast</h2>
-                    <div class="container text-center">
+                    <div class="forecast-container text-center">
                         <div class="row align-items-start">
                           <div class="col days">
-                            Day
+                            <p class="day-1-date">Day 1</p>
+                            <p class="day-1-icon"></p>
+                            <p class="day-1-temperature"></p>
+                            <p class="day-1-humidity"></p>
                             </div>
                           <div class="col days">
-                            Day
+                            <p class="day-2-date">Day 2</p>
+                            <p class="day-2-icon"></p>
+                            <p class="day-2-temperature"></p>
+                            <p class="day-2-humidity"></p>
                             </div>
                           <div class="col days">
-                            Day
+                            <p class="day-3-date">Day 3</p>
+                            <p class="day-3-icon"></p>
+                            <p class="day-3-temperature"></p>
+                            <p class="day-3-humidity"></p>
                             </div>
+                            
                           <div class="col days">
-                            Day
+                            <p class="day-4-date">Day 4</p>
+                            <p class="day-4-icon"></p>
+                            <p class="day-4-temperature"></p>
+                            <p class="day-4-humidity"></p>
                             </div>
+                        
                           <div class="col days">
-                            Day
+                            <p class="day-5-date">Day 5</p>
+                            <p class="day-5-icon"></p>
+                            <p class="day-5-temperature"></p>
+                            <p class="day-5-humidity"></p>
+                            </div>
                             </div>
 
                             </div>
