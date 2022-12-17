@@ -83,5 +83,5 @@ function renderCityList(cityList) {
     }
 }
 
-// add a function that will take the savedcities array and for each saved city I need a button to name them.  I will need another for loop for each button.
+
 

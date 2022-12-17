@@ -21,15 +21,28 @@ body {
     border-radius: 10px;
     font-weight: bold;
     font-size: larger;
+    background-color: lightskyblue;
+    color: black;
+    
+}
+
+#five-day {
+    background-color: lightskyblue;
+    color: black;
     
 }
 .days {
     border: 1px solid black;
-    border-radius: 10px;
     font-weight: bold;
     font-size: larger;
     
 
+}
+
+#city-list {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
