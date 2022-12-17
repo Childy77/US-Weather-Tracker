@@ -30,9 +30,9 @@ fetch(weatherURL)
     $(".city").text(response.name);
     $(".current-date").text(dayjs.unix(response.dt).format("MM/DD/YYYY"));
     $(".weather-icon").attr("src", "http://openweathermap.org/img/wn/"+ response.weather[0].icon + "@2x.png");
-    $(".temperature").text(response.main.temp);
-    $(".humidity").text(response.main.humidity);
-    $(".wind").text(response.wind.speed);
+    $(".temperature").text("Temp:   " + response.main.temp);
+    $(".humidity").text("Humidity:   " + response.main.humidity);
+    $(".wind").text("Wind Speed:   " + response.wind.speed);
     console.log(response);
     
     var forecastURL =  "https://api.openweathermap.org/data/2.5/forecast?lat="+response.coord.lat+"&lon="+response.coord.lon+"&units=imperial&appid=" + APIKey;
