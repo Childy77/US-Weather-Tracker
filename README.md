@@ -1,5 +1,7 @@
 # US-Weather-Tracker
 
+
+
 -I added the needed links to create the webpage
 
 -I created the html and css styles to the page 
@@ -14,6 +16,9 @@ I saved the search history into local storage, and made llod to retrieve save th
 
 -I created HTML for the 5-day forcast, then commented it out once it was linked in the JavaScript.  I left the comments there in case I needed them later for a reference.
 
--
+Deployed website URL:
+https://childy77.github.io/US-Weather-Tracker/
+
+
 
 
